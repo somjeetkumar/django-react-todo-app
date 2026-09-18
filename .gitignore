@@ -1,0 +1,82 @@
+# =========================
+# Python
+# =========================
+*.py[cod]
+__pycache__/
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Database
+*.sqlite3
+
+# =========================
+# Django
+# =========================
+*.log
+staticfiles/
+media/
+
+# =========================
+# Node.js / React / Vite
+# =========================
+client/node_modules/
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+client/dist/
+client/build/
+
+# Environment variables
+client/.env
+client/.env.*
+!client/.env.example
+
+# =========================
+# Testing / Coverage
+# =========================
+coverage/
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# =========================
+# Logs / Temporary files
+# =========================
+*.bak
+*.tmp
+
+# =========================
+# Build files
+# =========================
+dist/
+build/
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+
+# =========================
+# Docker
+# =========================
+*.dockerignore
